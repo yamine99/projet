@@ -1,0 +1,37 @@
+2021-01-05 13:39:31 ERROR - test
+2021-01-05 13:40:05 ERROR - test
+2021-01-05 13:40:48 ERROR - test
+2021-01-05 13:41:11 ERROR - test
+2021-01-05 13:41:22 ERROR - test
+2021-01-05 13:41:38 ERROR - test
+2021-01-05 13:42:29 ERROR - test
+2021-01-05 13:42:54 ERROR - test
+2021-01-05 13:43:05 ERROR - test
+2021-01-05 13:43:35 ERROR - test
+2021-01-05 13:44:05 ERROR - test
+2021-01-05 13:44:58 ERROR - test
+2021-01-05 13:45:27 ERROR - test
+2021-01-05 13:46:01 ERROR - test
+2021-01-05 13:46:09 ERROR - test
+2021-01-05 13:47:04 ERROR - test
+2021-01-05 13:48:12 ERROR - test
+2021-01-05 13:48:19 ERROR - test
+2021-01-05 13:49:05 ERROR - test
+2021-01-05 13:53:18 ERROR - java.sql.SQLSyntaxErrorException: Unknown database 'etablissement_scolaire"'
+2021-01-05 13:53:18 ERROR - test
+2021-01-05 13:54:09 ERROR - java.sql.SQLSyntaxErrorException: Unknown database 'formation"'
+2021-01-05 13:54:09 ERROR - test
+2021-01-05 14:04:11 ERROR - java.sql.SQLSyntaxErrorException: Unknown database 'formation"'
+2021-01-05 14:04:11 ERROR - test
+2021-01-05 14:19:26 ERROR - java.sql.SQLException: No timezone mapping entry for 'UTC"'
+2021-01-05 14:19:26 ERROR - test
+2021-01-05 14:20:02 ERROR - java.sql.SQLException: The connection property 'useSSL' acceptable values are: 'TRUE', 'FALSE', 'YES' or 'NO'. The value 'false"' is not acceptable.
+2021-01-05 14:20:02 ERROR - test
+2021-01-05 14:20:10 ERROR - java.sql.SQLException: No timezone mapping entry for 'UTC"'
+2021-01-05 14:20:10 ERROR - test
+2021-01-05 14:20:25 ERROR - java.sql.SQLException: The server time zone value 'unknown' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+2021-01-05 14:20:25 ERROR - test
+2021-01-05 14:20:54 INFO  - connexion OK
+2021-01-05 14:20:54 ERROR - test
+2021-01-05 14:21:54 INFO  - connexion OK
+2021-01-05 14:21:54 ERROR - test
