@@ -1,0 +1,18 @@
+        DirecteurService directeurService = new DirecteurService();
+        Scanner scan = new Scanner(System.in);
+        /*Directeur d1 = new Directeur("dazin","maxime.dazin@gmail.com","14 rue des vignes","0612401108","maxime","coucou","",null);
+        System.out.println(d1);
+        directeurService.addDirecteur(d1);*/
+        System.out.println("Entrez votre email\n");
+        String email = scan.nextLine();
+
+        System.out.println("Entrez votre mot de passe\n");
+        String mdp = scan.nextLine();
+
+        Directeur d = directeurService.getDirecteurByEmail(email);
+
+        if(directeurService.validDirecteurAuthentification(d,mdp) == 1) {
+            System.out.println("auth success");
+        } else {
+            System.out.println("auth failed");
+        }

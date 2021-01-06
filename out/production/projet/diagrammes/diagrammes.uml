@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>diagrammes</OriginalElement>
+  <nodes>
+    <node x="750.375" y="209.5">eu.ensup.dao.IEtudiantDao</node>
+    <node x="806.0" y="1058.0">eu.ensup.service.DirecteurService</node>
+    <node x="1273.0" y="821.0">eu.ensup.service.IPersonnePhysiqueService</node>
+    <node x="0.0" y="1253.0">eu.ensup.domaine.Responsable</node>
+    <node x="253.375" y="0.0">eu.ensup.dao.BaseDao</node>
+    <node x="155.99999999999997" y="1207.0">eu.ensup.domaine.Enseignant</node>
+    <node x="0.0" y="209.0">eu.ensup.dao.IEnseignantDao</node>
+    <node x="819.0" y="821.0">eu.ensup.service.IDirecteurService</node>
+    <node x="248.75" y="1036.0">eu.ensup.domaine.PersonnePhysique</node>
+    <node x="362.25" y="821.0">eu.ensup.domaine.Personne</node>
+    <node x="444.75" y="1069.5">eu.ensup.domaine.Etablissement</node>
+    <node x="59.64863322569869" y="631.0724863600935">eu.ensup.dao.EnseignantDao</node>
+    <node x="330.0" y="1229.5">eu.ensup.domaine.Directeur</node>
+    <node x="1195.0" y="947.0">eu.ensup.service.PersonnePhysiqueServiceImpl</node>
+    <node x="700.625" y="622.5">eu.ensup.dao.EtudiantDao</node>
+    <node x="571.0" y="1218.5">eu.ensup.domaine.Etudiant</node>
+    <node x="0.0" y="1374.0">eu.ensup.domaine.Cours</node>
+    <node x="356.1845238095238" y="611.0">eu.ensup.dao.DirecteurDao</node>
+    <node x="484.375" y="198.0">eu.ensup.dao.IDirecteurDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eu.ensup.dao.EtudiantDao" target="eu.ensup.dao.IEtudiantDao">
+      <point x="49.75" y="-71.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="eu.ensup.service.PersonnePhysiqueServiceImpl" target="eu.ensup.service.IPersonnePhysiqueService">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="eu.ensup.dao.DirecteurDao" target="eu.ensup.dao.IDirecteurDao">
+      <point x="61.5" y="-82.5" />
+      <point x="540.6845238095239" y="591.0" />
+      <point x="607.375" y="591.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="eu.ensup.dao.DirecteurDao" target="eu.ensup.dao.BaseDao">
+      <point x="-61.5" y="-82.5" />
+      <point x="417.6845238095238" y="591.0" />
+      <point x="358.875" y="591.0" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="eu.ensup.dao.EnseignantDao" target="eu.ensup.dao.BaseDao">
+      <point x="56.75" y="-71.5" />
+      <point x="231.41071428571428" y="591.0" />
+      <point x="288.5416666666667" y="591.0" />
+      <point x="-70.33333333333331" y="280.5" />
+    </edge>
+    <edge source="eu.ensup.service.DirecteurService" target="eu.ensup.service.IDirecteurService">
+      <point x="0.0" y="-116.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="eu.ensup.dao.EtudiantDao" target="eu.ensup.dao.BaseDao">
+      <point x="-49.75" y="-71.0" />
+      <point x="750.375" y="581.0" />
+      <point x="429.2083333333333" y="581.0" />
+      <point x="70.33333333333331" y="280.5" />
+    </edge>
+    <edge source="eu.ensup.domaine.Responsable" target="eu.ensup.domaine.PersonnePhysique">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="1177.0" />
+      <point x="270.75" y="1177.0" />
+      <point x="-66.0" y="60.5" />
+    </edge>
+    <edge source="eu.ensup.domaine.Directeur" target="eu.ensup.domaine.PersonnePhysique">
+      <point x="0.0" y="-38.5" />
+      <point x="440.5" y="1187.0" />
+      <point x="358.75" y="1187.0" />
+      <point x="22.0" y="60.5" />
+    </edge>
+    <edge source="eu.ensup.domaine.Enseignant" target="eu.ensup.domaine.PersonnePhysique">
+      <point x="2.8421709430404007E-14" y="-61.0" />
+      <point x="233.0" y="1187.0" />
+      <point x="314.75" y="1187.0" />
+      <point x="-22.0" y="60.5" />
+    </edge>
+    <edge source="eu.ensup.domaine.Etablissement" target="eu.ensup.domaine.Personne">
+      <point x="0.0" y="-27.0" />
+      <point x="520.75" y="1011.0" />
+      <point x="462.0" y="1011.0" />
+      <point x="33.25" y="82.5" />
+    </edge>
+    <edge source="eu.ensup.dao.EnseignantDao" target="eu.ensup.dao.IEnseignantDao">
+      <point x="-56.75" y="-71.5" />
+      <point x="117.91071428571428" y="591.0" />
+      <point x="113.5" y="591.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="eu.ensup.domaine.Etudiant" target="eu.ensup.domaine.PersonnePhysique">
+      <point x="0.0" y="-49.5" />
+      <point x="666.0" y="1177.0" />
+      <point x="402.75" y="1177.0" />
+      <point x="66.0" y="60.5" />
+    </edge>
+    <edge source="eu.ensup.domaine.PersonnePhysique" target="eu.ensup.domaine.Personne">
+      <point x="0.0" y="-60.5" />
+      <point x="336.75" y="1011.0" />
+      <point x="395.5" y="1011.0" />
+      <point x="-33.25" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.661340206185567" x="390.7800894377267" y="521.3250194855807" />
+  <SelectedNodes>
+    <node>eu.ensup.dao.EnseignantDao</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
